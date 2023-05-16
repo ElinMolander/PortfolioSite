@@ -1,7 +1,7 @@
-import useNav from "../hooks/useNav"
+import {useNav} from "../hooks/useNav.jsx"
 
 function Work() {
-    const workRef = useNav()
+   const workRef = useNav("Work")
     return (
 
         <section id="workSection" ref={workRef}>

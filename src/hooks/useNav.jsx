@@ -1,14 +1,18 @@
+import { useContext, useEffect, useRef } from "react"
+import { NavContext } from "../context/NavContext";
+import { useOnScreen } from "./useOnScreen";
 
-import { useRef, useContext } from "react"
-import NavContext from "../context/NavContext"
-import useOnScreen from "./useOnScreen"
+export const useNav = (navLinkId) => {
+  const ref = useRef(null);
+  const { setActiveLinkId } = useContext(NavContext);
 
+  const isOnScreen = useOnScreen(ref);
 
- const useNav = () => {
-    const ref = useRef(null)
-    const { setActiveLinkId } = useContext(NavContext)
+  useEffect(() => {
+    if(isOnScreen) {
+      setActiveLinkId(navLinkId);
+    }
+  }, [isOnScreen, setActiveLinkId, navLinkId])
 
-    useOnScreen(ref)
-    return ref
+  return ref;
 }
-export default useNav

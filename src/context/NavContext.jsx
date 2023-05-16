@@ -1,23 +1,20 @@
-import { useState, createContext} from "react"
+import { createContext, useState } from "react"
 
+export const NavContext = createContext()
 
-const NavContext = createContext()
+const NavProvider = ({ children }) => {
+  const [activeLinkId, setActiveLinkId] = useState("");
 
-const NavProvider = ({ childern }) => {
+  const providerValue = {
+    activeLinkId,
+    setActiveLinkId
+  }
 
-    const [activeLinkId, setActiveLinkId] = useState("")
-
-    const providerValue = {
-        activeLinkId,
-        setActiveLinkId
-    }
-    return (
-        
-        <NavContext.Provider value={providerValue}>
-            {childern}
-        </NavContext.Provider>
-    )
+  return (
+    <NavContext.Provider value={providerValue}>
+      {children}
+    </NavContext.Provider>
+  )
 }
-
 
 export default NavProvider
