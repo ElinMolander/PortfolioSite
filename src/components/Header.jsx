@@ -1,26 +1,36 @@
 import React from 'react'
+import { useState, useEffect } from 'react'
 import { useContext } from 'react'
 import { NavContext } from '../context/NavContext'
 import "./Header.css"
 
 function Header(){
+    const { activeLinkId } = useContext(NavContext)
+    const navLinks = ["Work", "Contact", "About"] 
+//     const [isMobile, setIsMobile] = useState(false)
+//     useEffect(()=> {
+//         window.screen.with <= 760 ? setIsMobile(true) : setIsMobile(false)
+//     }, [window.screen.width])
 
-   const { activeLinkId } = useContext(NavContext)
-   const navLinks = ["Work", "Contact", "About"] 
+//     function detectWindowSize() {
+//         window.innerWidth <= 760 ? setIsMobile(true) : setIsMobile(false)
+//     }
+//    window.onresize = detectWindowSize
   
-  
-   function handleHomeButton(){
-       document.getElementById("homeSection").scrollIntoView({ behavior: "smooth"})
+
+    function handleHomeButton(){
+       document.getElementById("homeSection").scrollIntoView({ behavior: "smooth", block: "end"})
     }
+
    const renderNavLinks = (content) => {
         const scrollToId = `${content.toLowerCase()}Section`
         function handleClickNav(){
-        document.getElementById(scrollToId).scrollIntoView({ behavior: "smooth"})
+        document.getElementById(scrollToId).scrollIntoView({
+             behavior: "smooth", block:"start"})
     }
-   const style = activeLinkId === content ? "activeClass": ""
-   
-       return (
-           <ul key={content}>
+    const style = activeLinkId === content ? "activeClass": ""
+        return (
+           <ul className='noListStyle' key={content}>
                <li>
                    <button
                     onClick={handleClickNav}
@@ -34,10 +44,10 @@ function Header(){
         <header className='header'>
             <div className='container'>
                 <div className='navContainer'>
-                    <h1 onClick={handleHomeButton}
-                     
-                    >Elin Molander</h1>
-                    <nav>
+                   <h1 onClick={handleHomeButton }
+                     className={"logo"}
+                     >Elin Molander</h1>
+                     <nav>
                         {navLinks.map(nav => renderNavLinks(nav))}
                     </nav>
                 </div>

@@ -3,8 +3,9 @@
     background-color: #FFDE68;
     color:aliceblue;
     padding: 1rem;
-    position: fixed;
+    position:fixed;
     width: 100vw;
+    z-index: 300;
 }
 
 .container {
@@ -33,7 +34,7 @@
     font-size: 1rem;
     padding: 0;
     cursor: pointer;
-    color: black;
+    color: #1a1a1a;
     background: none;
     border: none;
 }
@@ -43,7 +44,7 @@
     position: absolute;
     height: 2px;
     width: 100%;
-    background-color: black;
+    background-color:#1a1a1a;
     left: 0 ;
     bottom: -3px;
     transform: scale(0,1);
@@ -60,8 +61,24 @@
     position: absolute;
     height: 2px;
     width: 100%;
-    background-color: #000000;
+    background-color:#1a1a1a;
     bottom: -3px;
     left: 0;
 }
 
+
+@media only screen and (max-width: 760px) {
+
+    .header {
+        padding: 0;
+    }
+    .navContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo {
+        display: none;
+    }
+  }
