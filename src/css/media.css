@@ -1,0 +1,87 @@
+
+
+@media only screen and (max-width: 760px) {
+  
+    .workSection {
+      scroll-margin-top: 100px;
+      width: 80%;
+    }
+  
+    .headline-worksection {
+      align-self:flex-start;
+      margin: .5em 0;
+    }
+  
+    .headline-worksection h1 { 
+      font-size: 2em;
+    }
+
+    .awards-section {
+      font-size: .8em;
+      padding-bottom: 1em;
+    }
+    .bread-texts {
+      display: flex;
+      flex-direction:row;
+      width: 100%;
+     }
+  
+    .bread-texts p {
+      align-self: flex-start;
+    }
+    /* .technicsList {
+      display: inline;
+      float: right;
+      margin: .5em;
+    } */
+    /* IMAGE */
+
+    .projectImg {
+      max-height: 200px;
+      max-width: 100%;
+      margin: 0;
+    }
+    .twig {
+      max-width: 1.5em;
+    }
+  
+  }
+  
+  
+  @media only screen and (max-width: 1000px){
+    .workSection {
+        scroll-margin-top: 20px;
+        
+    }
+    .content-workSection {
+        flex-direction: column-reverse;
+    }
+    .bread-texts{
+        margin-top: 1em;
+    }
+    .bread-texts p {
+        margin: .5em 1em 0 0;
+        
+    }
+    /* .bread-texts {
+    
+        width: 100%;
+    }
+     */
+    .projectImg {
+        min-height: 200px;
+        max-width: 100%;
+    }
+  
+  } 
+  
+  
+  @media only screen and (max-width: 1600px){
+    .bread-texts p {
+      max-width: 80%;
+    }
+  
+  }
+  
+  
+  

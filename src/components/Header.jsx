@@ -2,7 +2,7 @@ import React from 'react'
 import { useState, useEffect } from 'react'
 import { useContext } from 'react'
 import { NavContext } from '../context/NavContext'
-import "./Header.css"
+import "./css/header.css"
 
 function Header(){
     const { activeLinkId } = useContext(NavContext)

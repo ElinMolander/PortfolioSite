@@ -24,8 +24,9 @@ function App() {
             imgBlad={blad}
             linkGithub="https://github.com/ElinMolander/Art-bot"
             linkProjectSite="https://elinmolander.github.io/Art-bot/"
-            awards={["Selected student project Scrimba", "Featured by Svenska Tecknare"]}
-      /> 
+            awards={[{text:"Selected student project", link:"Scrimba",key:1},
+          {text:"Featured by", link:"Svenska Tecknare", key:2}]}
+        /> 
        <Work headline="Test Något annat" 
             technics={["Figma", "java Script", "HTML",
              "CSS", "Github", "Illustrator", "Procreate"]}

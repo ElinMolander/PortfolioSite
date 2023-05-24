@@ -1,0 +1,161 @@
+
+
+ /* SECTIONS  */
+
+
+ section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .secondary-section {
+    background-color: #FFDE68;
+  }
+  
+  .awards-section {
+    display: flex;
+    color: #FFDE68;
+  }
+  
+  .awards-section div{
+    display: flex;
+    padding: .5em;
+  }
+   .awards-text {
+      display: flex;
+      flex-direction: column;
+      padding: 1em;
+    }
+  
+    .awards-section h5 {
+      font-weight: 500;
+      font-size: 1em;
+      margin: 0;
+    }
+  
+  .workSection {
+    display: flex;
+    flex-direction: column;
+    margin: 1em auto;
+    width: 70vw;
+  }
+  
+    .headline-worksection {
+      display: flex;
+      align-self: start;
+    }
+  
+  
+    .headline-worksection h1{
+      font-size: 3em;
+      margin: .5em 0 0 0 ;
+    }
+  
+    .headline-worksection h3{
+      font-size: 1em;
+      font-weight: 400;
+      font-style: italic;
+      margin: 0.5em 0;
+    }
+  
+    .content-workSection {
+      display: flex;
+      flex-direction: row;
+    }
+   
+  
+    .bread-texts {
+      display: flex;
+      flex-direction: column;
+      color: #ffffff;
+      width: 80%;
+    }
+  
+   
+  
+  
+  
+   .paragraphSection {
+    width: 80vw;
+    color: #1a1a1a;
+  }
+  
+  /* IMAGES */
+  
+    .projectImg {
+      max-width: 500px;
+      max-height: 400px;
+      object-fit: cover;
+      margin: 0 auto;
+    }
+  
+    .gitLogo {
+      width: 20px;
+    }
+  
+    .twig {
+      max-width: 2em;
+      object-fit: scale-down;
+      
+    }
+    .mirrored {
+      transform: scaleX(-1)
+    }
+  
+    /* LISTS */
+  
+    .noListStyle {
+      list-style: none;
+    }
+    
+    .technicsList {
+      margin: 1em;
+      padding: 0;
+    }
+    .technicsList li {
+      margin: .5 em 0;
+    }
+    
+  .linksSection {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2em;
+  }
+  .linksSection a {
+    margin: .5em 1em 1em 0;
+  }
+  .linksSection button {
+    position: relative;
+    margin: 0 1em 0 0;
+    font-size: 1rem;
+    padding: 0;
+    cursor: pointer;
+    color: #ffffff;
+    background: none;
+    border: none;
+  }
+  
+  .linksSection button::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color:#ffffff;
+    left: 0 ;
+    bottom: -3px;
+    transform: scale(0,1);
+    transition: transform 0.25s ease;
+    transform-origin: 0 100%;
+  }
+  
+  .linksSection button:hover::before {
+    transform: scale(1,1);
+  }
+  
+  
+  
+  
