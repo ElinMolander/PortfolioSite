@@ -1,17 +1,23 @@
 import {useNav} from "../hooks/useNav.jsx"
+import './home.css'
 
-function Home() {
+function Home(props) {
   const homeRef = useNav("Home")
   function handleContactClick() {
      document.getElementById("contactSection").scrollIntoView({ behavior: "smooth"})
     }
+function handleAboutClick(){
+        document.getElementById("aboutSection").scrollIntoView({ behavior: "smooth", block: "end"})
+     }
     return (
         <section id="homeSection" className="secondary-section" ref={homeRef} >
-            <div className="paragraphSection">
-                 <h2>I´m a Front end developer with a passion for Games and Illustration.
+            <div className="home-content">
+            <img src={props.img}  onClick={handleAboutClick} className="portrait"></img>
+                 <h2>Hi! My name is Elin Molander. 
+                     A Front end developer with a passion for Games and Illustration.
                 When I´m not developing I love to dance or taking long bike trips.</h2>
             </div>
-            <button onClick={handleContactClick}> Contact</button>
+            <span className="filled-button" onClick={handleContactClick}> Contact</span>
         </section>
        
     )

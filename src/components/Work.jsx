@@ -16,6 +16,7 @@ function Work(props) {
     })
 
         const displayAwards = awards.map((award) => {
+            
             return (
                 <div key={award.key}>
                     <img src={props.imgBlad} className="twig" ></img>
@@ -62,10 +63,10 @@ function Work(props) {
                             </div>
                     </div>
                 </div>
-                        <div className="linksSection">
+                        <div className="links-Section">
                             <a href={props.linkProjectSite} target="_blank" className="projectLink">Visit site</a> 
                             <a href={props.linkGithub} target="_blank" className="logoLink">
-                                <img src={props.gitLogo} className="gitLogo" alt="GitHub"></img>
+                                <img src={props.gitLogo} className="link-logo git-logo" alt="GitHub"></img>
                             </a>
                         </div>
                 </div>

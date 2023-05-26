@@ -66,12 +66,16 @@
     left: 0;
 }
 
+.logo {
+    color: #1a1a1a;
+}
 
 @media only screen and (max-width: 760px) {
 
     .header {
         padding: 0;
     }
+    
     .navContainer{
         display: flex;
         align-items: center;
@@ -81,4 +85,4 @@
     .logo {
         display: none;
     }
-  }
+}

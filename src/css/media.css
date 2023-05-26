@@ -45,6 +45,9 @@
       max-width: 1.5em;
     }
   
+    .about-myName {
+      display: inline;
+    }
   }
   
   

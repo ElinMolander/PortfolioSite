@@ -1,0 +1,50 @@
+/* IMAGES */
+.about-section {
+    background: #2C2C2C;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70vw;
+}
+
+.about-content >div {
+    margin-top: 1em;
+}
+
+.about-rows {
+    display: flex;
+    max-width: 600px;
+    font-size: 1.2em;
+    line-height: 1.2;
+}
+
+.about-section h1 {
+    font-size: 3em;
+    margin: 1em 0 ;
+}
+
+.about-rows img {
+    object-fit: scale-down;
+    margin: 0 1em;
+    align-self:center;
+    min-width: 50px;
+    /* width: 100px;
+    height: 100px; */
+}
+
+.portrait {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+
+.about-myName {
+    display: none;
+}
+

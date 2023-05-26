@@ -22,6 +22,10 @@
   -webkit-text-size-adjust: 100%;
 }
 
+a, button{
+  cursor: pointer;
+}
+
 a {
   font-weight: 500;
   color:#FFDE68;
@@ -33,12 +37,20 @@ a:hover {
   color: #535bf2;
 }
 
-.logoLink {
+/* .logoLink {
   transition: all .4s ease;
+  
+} */
+
+.link-logo {
+  max-width: 40px;
+  margin: 2em  1em;
+  transition: all .4s ease;
+  
 }
 
-.logoLink:hover {
-  transform: scale(1.5);
+.link-logo:hover {
+  transform: scale(1.2);
 }
 
 .projectLink {
@@ -53,6 +65,65 @@ body {
   display: flex;
 }
 
+
+
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.secondary-section {
+  background-color: #FFDE68;
+}
+
+
+
 button {
   font-family: inherit;
+}
+
+.outline-button {
+  border: #242424 2px solid;
+  color: #242424;
+  padding: 1em;
+  text-decoration: none;
+  display: inline-block;
+  margin: 1em 0;
+}
+
+.outline-button:hover {
+  background-color: #fff;
+  transform: scale(1.1);
+}
+
+.filled-button {
+  background-color: #fff;
+  color: #242424;
+  padding: 1em;
+  transition: all .4s ease;
+  display: inline-block;
+  margin: 1em 0;
+  text-decoration: none;
+}
+
+.filled-button:hover {
+  transform: scale(1.1);
+}
+
+/* IMAGES */
+
+
+
+.twig {
+  max-width: 1.5em;
+  object-fit: scale-down;
+  
+}
+.mirrored {
+  transform: scaleX(-1)
 }

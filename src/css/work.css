@@ -3,31 +3,23 @@
  /* SECTIONS  */
 
 
- section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 100vh;
-    width: 100vw;
-  }
-  
-  .secondary-section {
-    background-color: #FFDE68;
-  }
   
   .awards-section {
     display: flex;
+    align-self: flex-start;
     color: #FFDE68;
+    margin: 1em 0; 
   }
   
   .awards-section div{
     display: flex;
     padding: .5em;
+    text-align: center;
   }
    .awards-text {
       display: flex;
       flex-direction: column;
+      align-items: center;
       padding: 1em;
     }
   
@@ -74,15 +66,8 @@
       color: #ffffff;
       width: 80%;
     }
-  
-   
-  
-  
-  
-   .paragraphSection {
-    width: 80vw;
-    color: #1a1a1a;
-  }
+
+
   
   /* IMAGES */
   
@@ -92,19 +77,11 @@
       object-fit: cover;
       margin: 0 auto;
     }
-  
-    .gitLogo {
-      width: 20px;
+    .git-logo {
+        margin: 0 1em;
+        width: 30px;
     }
   
-    .twig {
-      max-width: 2em;
-      object-fit: scale-down;
-      
-    }
-    .mirrored {
-      transform: scaleX(-1)
-    }
   
     /* LISTS */
   

@@ -2,11 +2,11 @@ import React from 'react'
 import { useState, useEffect } from 'react'
 import { useContext } from 'react'
 import { NavContext } from '../context/NavContext'
-import "./css/header.css"
+import "./header.css"
 
 function Header(){
     const { activeLinkId } = useContext(NavContext)
-    const navLinks = ["Work", "Contact", "About"] 
+    const navLinks = ["Work", "About", "Contact"] 
 //     const [isMobile, setIsMobile] = useState(false)
 //     useEffect(()=> {
 //         window.screen.with <= 760 ? setIsMobile(true) : setIsMobile(false)
