@@ -29,12 +29,7 @@
     .bread-texts p {
       align-self: flex-start;
     }
-    /* .technicsList {
-      display: inline;
-      float: right;
-      margin: .5em;
-    } */
-    /* IMAGE */
+
 
     .projectImg {
       max-height: 200px;
@@ -48,6 +43,26 @@
     .about-myName {
       display: inline;
     }
+
+    .about-rows {
+      width: 85vw;
+    }
+
+    .portrait {
+      
+      margin: 0;
+    }
+
+    .about-rows img {
+      max-width: 30px;
+      margin:  0 .5em 0 0;
+    }
+
+    .about-content  h1{
+      margin: 1em 0 .5em 0;
+    }
+
+  
   }
   
   
@@ -74,6 +89,18 @@
     .projectImg {
         min-height: 200px;
         max-width: 100%;
+    }
+    
+    .align-hedline {
+      flex-direction: column-reverse;
+      align-items: flex-start;
+    }
+
+    .awards-section {
+      margin: .5em 0;
+    }
+    .headline-worksection h3{
+      margin: .5em 0 1em 0;
     }
   
   } 

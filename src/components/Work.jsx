@@ -31,34 +31,36 @@ function Work(props) {
 
 
     return (
-        <div>
+       <div className={props.isLight ? "light-section": "dark-section" }>
             <section id="workSection" className="workSection" ref={workRef}>
             <div className="headline-worksection">
                  <div>
-                    <h1>{props.headline}</h1>
-                    <h3>{props.text}</h3>
+                     <div className="align-hedline">
+                        <h1>{props.headline}</h1>
+                        { awards.length ?  <div className="awards-section">
+                                        { displayAwards }
+                                    </div > :  ""
+                        }
+                     </div>
+                   
+                    <h3>{props.shortText}</h3>
                  </div>
                   
             </div>
-            { awards.length ?  <div className="awards-section">
-                                     { displayAwards }
-                                 </div > :  ""
-            }
+         
            
           
             <div className="content-workSection">
                 <div>
                     <div className="bread-texts">
                         <div >
-                            <h3>Technics: </h3>
+                            <h3>Technics </h3>
                             <ul className="technicsList">
                                 { displayTechnics }
                             </ul>
                             <div>
                                 <h3>About the project</h3>
-                                <p> More about my thinking when designing the bot!
-                                    More about my thinking when designing the bot!
-                                    More about my thinking when designing the bot!
+                                <p> {props.text}
                                 </p>
                             </div>
                     </div>
@@ -76,9 +78,9 @@ function Work(props) {
             </div>
            
             </section>
-           
+        </div>  
       
-            </div>
+           
        
     )
 }

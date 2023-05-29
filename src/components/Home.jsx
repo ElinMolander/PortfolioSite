@@ -10,7 +10,7 @@ function handleAboutClick(){
         document.getElementById("aboutSection").scrollIntoView({ behavior: "smooth", block: "end"})
      }
     return (
-        <section id="homeSection" className="secondary-section" ref={homeRef} >
+        <section id="homeSection" className="light-section" ref={homeRef} >
             <div className="home-content">
             <img src={props.img}  onClick={handleAboutClick} className="portrait"></img>
                  <h2>Hi! My name is Elin Molander. 

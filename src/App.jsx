@@ -16,6 +16,10 @@ import bb from "./assets/beardyBirdLogo.png"
 import pen from "./assets/pen.png"
 import linkedin from "./assets/linkedin.png"
 import instagram from "./assets/instagram.png"
+import quizzical from "./assets/Quizzical.png"
+import VAT from "./assets/Vat.jpeg"
+import ColorScheme from "./assets/Color-scheme.png"
+import tenzies from "./assets/tenzies.png"
 
 function App() {
  return (
@@ -23,24 +27,85 @@ function App() {
     <NavProvider>
       <Header />
       <Home img={elinMolander} />
-      <Work headline="Al, the Art-bot" 
+      <Work headline="AL, THE ART BOT" 
             technics={["Figma", "javaScript", "HTML",
              "CSS", "Github", "Illustrator", "Procreate"]}
-            text="Turns your wishes into Art!"
+            shortText="Turns your wishes into Art!"
+            text="more text, more textmore textmore text
+            more textmore textmore textmore textmore text"
             img={imgALArtbot}
             gitLogo={githubLogo}
             imgBlad={blad}
             linkGithub="https://github.com/ElinMolander/Art-bot"
             linkProjectSite="https://elinmolander.github.io/Art-bot/"
-            awards={[{text:"Selected project", link:"Scrimba", src:"" ,key:1},
+            awards={[{text:"Selected project", link:"Scrimba", src:"",key:1},
                     {text:"Featured by", 
                     link:"Svenska Tecknare",
                     src:"https://www.svenskatecknare.se/blog/2023/02/22/svara-pa-enkat-om-hur-ai-paverkar-dig-som-visuell-kreator/",
                      key:2}]}
+            isLight={false}
         /> 
-     
+      <Work headline="Quizzical" 
+            technics={["React", "javaScript", "HTML",
+             "CSS", "Github","Figma"]}
+            shortText="Test your knowlege!"
+            text="more text, more textmore textmore text
+            more textmore textmore textmore textmore text"
+            img={quizzical}
+            gitLogo={githubLogo}
+            imgBlad={blad}
+            linkGithub="https://github.com/ElinMolander/Quizzical"
+            linkProjectSite="https://silly-duckanoo-c6bcd3.netlify.app/"
+            awards={[]}
+            isLight={true}
+        /> 
+      <Work headline="Tenzies" 
+            technics={["React", "javaScript", "HTML",
+            "CSS", "Github","Figma"]}
+            shortText="A digital remake of the dicegame Tenzies"
+            text="more text, more textmore textmore text
+            more textmore textmore textmore textmore text"
+            img={tenzies}
+            gitLogo={githubLogo}
+            imgBlad={blad}
+            linkGithub="https://github.com/ElinMolander/Tenzies"
+            linkProjectSite="https://silly-duckanoo-c6bcd3.netlify.app/"
+            awards={[]}
+            isLight={false}
+       /> 
+
+      <Work headline="Color-scheme " 
+            technics={["API","javaScript", "HTML",
+            "CSS", "Github","Figma"]}
+            shortText="get the right color"
+            text="more text, more textmore textmore text
+            more textmore textmore textmore textmore text"
+            img={ColorScheme}
+            gitLogo={githubLogo}
+            imgBlad={blad}
+            linkGithub="https://github.com/ElinMolander/Color-Scheme"
+            linkProjectSite="https://elinmolander.github.io/Color-Scheme/"
+            awards={[]}
+            isLight={true}
+      /> 
+
+
+      <Work headline="VAT-Calculator" 
+            technics={["javaScript", "HTML",
+            "CSS", "Github","Figma"]}
+            shortText="Calculate the right VAT"
+            text="more text, more textmore textmore text
+            more textmore textmore textmore textmore text"
+            img={ VAT }
+            gitLogo={githubLogo}
+            imgBlad={blad}
+            linkGithub="https://verdant-churros-c03694.netlify.app/"
+            linkProjectSite="https://github.com/ElinMolander/VAT-calculator-SE"
+            awards={[]}
+            isLight={false}
+      />
      <About img={elinMolander} 
-             symbols={[{game},{bb},{pen},{bike}]}/>
+             symbols={[{game},{pin},{bb},{pen},{bike}]}/>
       <Contact  gitLogo={githubLogo} 
                 instagram={instagram} 
                 linkedin={linkedin}/>

@@ -23,26 +23,31 @@ function handleContactButton(){
                     </div>
 
                     <div className="about-rows">
-                        <img src={props.symbols[1].bb}></img>
+                        <img src={props.symbols[1].pin}></img>
+                        <p> Based in Göteborg and curently looking for job as a developer.</p>
+                    </div>
+                    
+                    <div className="about-rows">
+                        <img src={props.symbols[2].bb}></img>
                         <p>I also love to make games and togheter with Erik Hallgren 
                             I have made some at Beardybird.</p>
                     </div>
 
                     <div className="about-rows">
-                        <img src={props.symbols[2].pen}></img>
+                        <img src={props.symbols[3].pen}></img>
                         <p>I have been working as a Illustrator for 10 years. 
                             That means I´m very good at all the Adobe programs
                             and I also can animate as a bonus!</p>
                     </div>
 
                     <div className="about-rows">
-                        <img src={props.symbols[3].bike}></img>
+                        <img src={props.symbols[4].bike}></img>
                         <p> When I´m not developing I love to dance lindy hop,
                             or taking long bike trips. </p>
                     </div>
-                    <span className="filled-button " onClick={handleContactButton}> Contact</span>
+                   
                 </div>
-               
+                <span className="filled-button " onClick={handleContactButton}> Contact</span>
 
                  {/* <a href = "mailto: elin@elinmolander.com" className="filled-button">elin@elinmolander.com</a> */}
             </div>

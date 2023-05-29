@@ -8,12 +8,13 @@
     display: flex;
     align-self: flex-start;
     color: #FFDE68;
-    margin: 1em 0; 
+    margin:0; 
+    
   }
   
-  .awards-section div{
+  .awards-section div {
     display: flex;
-    padding: .5em;
+    padding: .5em .5em 0 .5em;
     text-align: center;
   }
    .awards-text {
@@ -28,14 +29,27 @@
       font-size: 1em;
       margin: 0;
     }
+
   
   .workSection {
     display: flex;
     flex-direction: column;
-    margin: 1em auto;
+    margin: 4em auto;
     width: 70vw;
+    height:auto;
+    padding: 4em 0;
   }
+
+
   
+    .align-hedline {
+      display: flex;
+      margin: 0;
+      align-items: center;
+      justify-content: space-between;
+      width: 70vw;
+    }
+
     .headline-worksection {
       display: flex;
       align-self: start;
@@ -44,11 +58,12 @@
   
     .headline-worksection h1{
       font-size: 3em;
-      margin: .5em 0 0 0 ;
+      margin: 0;
+      text-transform: uppercase;
     }
   
     .headline-worksection h3{
-      font-size: 1em;
+      font-size: 1.5em;
       font-weight: 400;
       font-style: italic;
       margin: 0.5em 0;
@@ -63,11 +78,16 @@
     .bread-texts {
       display: flex;
       flex-direction: column;
-      color: #ffffff;
       width: 80%;
     }
 
+    .bread-texts p {
+      margin-bottom: 2em;
+    }
 
+    .links-Section {
+      margin: 2em 0;
+    }
   
   /* IMAGES */
   

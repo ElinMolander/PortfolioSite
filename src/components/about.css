@@ -1,6 +1,7 @@
-/* IMAGES */
+
 .about-section {
     background: #2C2C2C;
+    height: auto;
 }
 
 .about-content {
@@ -8,15 +9,16 @@
     flex-direction: column;
     align-items: center;
     width: 70vw;
+    margin-bottom: 5em;
 }
 
-.about-content >div {
+/* .about-content >div {
     margin-top: 1em;
-}
+} */
 
 .about-rows {
     display: flex;
-    max-width: 600px;
+    width: 600px;
     font-size: 1.2em;
     line-height: 1.2;
 }
@@ -31,8 +33,7 @@
     margin: 0 1em;
     align-self:center;
     min-width: 50px;
-    /* width: 100px;
-    height: 100px; */
+   
 }
 
 .portrait {
@@ -48,3 +49,6 @@
     display: none;
 }
 
+.button-about{
+    margin-bottom: 5em;
+  }
