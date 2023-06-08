@@ -5,7 +5,7 @@ import Contact from "./components/Contact.jsx"
 import Work from "./components/Work.jsx"
 import Home from "./components/Home"
 import NavProvider from './context/NavContext'
-import imgALArtbot from "./assets/ALArtbot.jpg"
+import imgALArtbot from "./assets/SimpleMocupArtBot.jpg"
 import githubLogo from "./assets/github-mark-white.png"
 import blad from "./assets/blad.png"
 import elinMolander from "./assets/ElinMolander.jpg"
@@ -16,7 +16,7 @@ import bb from "./assets/beardyBirdLogo.png"
 import pen from "./assets/pen.png"
 import linkedin from "./assets/linkedin.png"
 import instagram from "./assets/instagram.png"
-import quizzical from "./assets/Quizzical.png"
+import quizzical from "./assets/simpleMocupQuizzical.gif"
 import VAT from "./assets/Vat.jpeg"
 import ColorScheme from "./assets/Color-scheme.png"
 import tenzies from "./assets/tenzies.png"
@@ -49,8 +49,11 @@ function App() {
             technics={["React", "javaScript", "HTML",
              "CSS", "Github","Figma"]}
             shortText="Test your knowlege!"
-            text="more text, more textmore textmore text
-            more textmore textmore textmore textmore text"
+            text="A solo project were we got the design as a starting point. 
+            Using Trivia API to generate questions and answers. 
+            The solution was to do a lot of maping, and use react Hooks as 
+            useEffect and useState. And I also used React Routers for making two pages,
+            A intro page were you can chose topics and difficulty and The Questions Page."
             img={quizzical}
             gitLogo={githubLogo}
             imgBlad={blad}

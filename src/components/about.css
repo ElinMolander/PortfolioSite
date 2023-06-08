@@ -16,9 +16,30 @@
     margin-top: 1em;
 } */
 
+.tech-row {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    font-size: 1.2em;
+    line-height: 1.2;
+    font-weight: 700;
+    background-color: #FFDE68;
+    color: #2C2C2C;
+    margin: 1em 0;
+}
+
+.tech-row p {
+    margin: 0 16px 16px 16px;
+}
+.tech-row h5 {
+    margin: 16px 6px 0 16px;
+    font-size: 1.2em;
+    text-transform:uppercase;
+    text-align: center;
+}
 .about-rows {
     display: flex;
-    width: 600px;
+    max-width: 600px;
     font-size: 1.2em;
     line-height: 1.2;
 }

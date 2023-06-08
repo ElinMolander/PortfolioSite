@@ -42,15 +42,10 @@ function Work(props) {
                                     </div > :  ""
                         }
                      </div>
-                   
-                    <h3>{props.shortText}</h3>
+                   <h3>{props.shortText}</h3>
                  </div>
-                  
             </div>
-         
-           
-          
-            <div className="content-workSection">
+         <div className="content-workSection">
                 <div>
                     <div className="bread-texts">
                         <div >
@@ -65,8 +60,9 @@ function Work(props) {
                             </div>
                     </div>
                 </div>
-                        <div className="links-Section">
-                            <a href={props.linkProjectSite} target="_blank" className="projectLink">Visit site</a> 
+                        <div className="links-section">
+                            <a href={props.linkProjectSite} target="_blank" 
+                            className={props.isLight?  "projectLink dark-section":"projectLink light-section" }>Try it out!</a> 
                             <a href={props.linkGithub} target="_blank" className="logoLink">
                                 <img src={props.gitLogo} className="link-logo git-logo" alt="GitHub"></img>
                             </a>
