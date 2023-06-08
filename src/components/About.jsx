@@ -1,5 +1,5 @@
 import  {useNav}  from "../hooks/useNav"
-import './about.css'
+import './about.scss'
 
 
 

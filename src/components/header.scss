@@ -1,7 +1,8 @@
+@import './src/css/colors.scss';
 
 .header {
-    background-color: #FFDE68;
-    color:aliceblue;
+    background-color: $third-colorYellow;
+    color:$secondary-colorWhite;
     padding: 1rem;
     position:fixed;
     width: 100vw;
@@ -44,7 +45,7 @@
     position: absolute;
     height: 2px;
     width: 100%;
-    background-color:#1a1a1a;
+    background-color:$primary-colorBlack;
     left: 0 ;
     bottom: -3px;
     transform: scale(0,1);
@@ -61,13 +62,13 @@
     position: absolute;
     height: 2px;
     width: 100%;
-    background-color:#1a1a1a;
+    background-color:$primary-colorBlack;
     bottom: -3px;
     left: 0;
 }
 
 .logo {
-    color: #1a1a1a;
+    color: $primary-colorBlack;
 }
 
 @media only screen and (max-width: 760px) {

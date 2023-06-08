@@ -1,5 +1,5 @@
 import {useNav} from "../hooks/useNav.jsx"
-import './home.css'
+import './home.scss'
 
 function Home(props) {
   const homeRef = useNav("Home")

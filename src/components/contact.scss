@@ -1,6 +1,8 @@
+@import './src/css/colors.scss';
+
 .contactSection {
-    background-color: #FFDE68;
-    color: #2C2C2C;
+    background-color: $third-colorYellow;
+    color: $primary-colorBlack;
 }
 
 .greeting-text {

@@ -1,6 +1,7 @@
+@import './src/css/colors.scss';
 
 .about-section {
-    background: #2C2C2C;
+    background: $primary-colorBlack;
     height: auto;
 }
 
@@ -12,10 +13,6 @@
     margin-bottom: 5em;
 }
 
-/* .about-content >div {
-    margin-top: 1em;
-} */
-
 .tech-row {
     display: flex;
     flex-direction: column;
@@ -23,8 +20,8 @@
     font-size: 1.2em;
     line-height: 1.2;
     font-weight: 700;
-    background-color: #FFDE68;
-    color: #2C2C2C;
+    background-color: $third-colorYellow;
+    color: $primary-colorBlack;
     margin: 1em 0;
 }
 

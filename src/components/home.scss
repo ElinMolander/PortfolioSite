@@ -1,9 +1,11 @@
+@import './src/css/colors.scss';
+
 .home-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 70vw;
-    color: #1a1a1a;
+    color: $primary-colorBlack;
   }
 
   .home-content h2 {

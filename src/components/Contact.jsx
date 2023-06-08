@@ -1,5 +1,5 @@
 import {useNav} from "../hooks/useNav.jsx"
-import './contact.css'
+import './contact.scss'
 
 function Contact(props) {
     const contactRef = useNav("Contact")
