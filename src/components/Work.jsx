@@ -64,7 +64,7 @@ function Work(props) {
                             <a href={props.linkProjectSite} target="_blank" 
                             className={props.isLight?  "projectLink dark-section":"projectLink light-section" }>Try it out!</a> 
                             <a href={props.linkGithub} target="_blank" className="logoLink">
-                                <img src={props.gitLogo} className="link-logo git-logo" alt="GitHub"></img>
+                                <img src={props.gitLogo} className={props.isLight?"link-logo git-logo dark":"link-logo git-logo"} alt="GitHub"></img>
                             </a>
                         </div>
                 </div>

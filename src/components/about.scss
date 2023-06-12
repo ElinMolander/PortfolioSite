@@ -3,6 +3,7 @@
 .about-section {
     background: $primary-colorBlack;
     height: auto;
+    color:$secondary-colorWhite ;
 }
 
 .about-content {
@@ -23,6 +24,7 @@
     background-color: $third-colorYellow;
     color: $primary-colorBlack;
     margin: 1em 0;
+    border-radius: $border-radius;
 }
 
 .tech-row p {

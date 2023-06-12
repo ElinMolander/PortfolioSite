@@ -17,9 +17,9 @@ import pen from "./assets/pen.png"
 import linkedin from "./assets/linkedin.png"
 import instagram from "./assets/instagram.png"
 import quizzical from "./assets/simpleMocupQuizzical.gif"
-import VAT from "./assets/Vat.jpeg"
-import ColorScheme from "./assets/Color-scheme.png"
-import tenzies from "./assets/tenzies.png"
+import VAT from "./assets/Vat.jpg"
+import ColorScheme from "./assets/SimpleMocupColorScheme.jpg"
+import tenzies from "./assets/SimpleMocupTenezies.jpg"
 
 function App() {
  return (
@@ -28,11 +28,16 @@ function App() {
       <Header />
       <Home img={elinMolander} />
       <Work headline="AL, THE ART BOT" 
-            technics={["Figma", "javaScript", "HTML",
-             "CSS", "Github", "Illustrator", "Procreate"]}
+            technics={["JavaScript", "HTML",
+             "CSS", "Github", "Figma", "Illustrator", "Procreate"]}
             shortText="Turns your wishes into Art!"
-            text="more text, more textmore textmore text
-            more textmore textmore textmore textmore text"
+            text=" JavaScript based Art-bot,
+            Self initialised project, I wanted to make an Art-bot where
+             you can make a wish for a unique artwork. The AI-generating processors becomes better and better
+             but do they have a artistic feedom? This robot has! 
+              The techside CSS with z-index as a exemple. Hade a lot of fun using 
+              Animations in JavaScript and used a lot of Math.random and 
+              Filtering in this project."
             img={imgALArtbot}
             gitLogo={githubLogo}
             imgBlad={blad}
@@ -46,7 +51,7 @@ function App() {
             isLight={false}
         /> 
       <Work headline="Quizzical" 
-            technics={["React", "javaScript", "HTML",
+            technics={["React", "JavaScript", "HTML",
              "CSS", "Github","Figma"]}
             shortText="Test your knowlege!"
             text="A solo project were we got the design as a starting point. 
@@ -63,11 +68,17 @@ function App() {
             isLight={true}
         /> 
       <Work headline="Tenzies" 
-            technics={["React", "javaScript", "HTML",
+            technics={["React", "JavaScript", "HTML",
             "CSS", "Github","Figma"]}
             shortText="A digital remake of the dicegame Tenzies"
-            text="more text, more textmore textmore text
-            more textmore textmore textmore textmore text"
+            text="React based ice dice game,
+            This project is form my cores in front end development.
+             Were I got the design from the cores but also change some aspects.
+              This was great to get warm with components i React and other tech 
+              as useEffects, useState.
+            I made the design off the dice manly as a CSS challenge. 
+            Fun thing was to implement confetti in the end game, 
+            who doesn't love confetti?"
             img={tenzies}
             gitLogo={githubLogo}
             imgBlad={blad}
@@ -78,11 +89,11 @@ function App() {
        /> 
 
       <Work headline="Color-scheme " 
-            technics={["API","javaScript", "HTML",
+            technics={["API","JavaScript", "HTML",
             "CSS", "Github","Figma"]}
             shortText="get the right color"
-            text="more text, more textmore textmore text
-            more textmore textmore textmore textmore text"
+            text="Working with an open API (thecolorapi) to get nice-looking color schemes. This was a solo project in my frontend course at Scrimba, we were given the design and had to implement and come up with the code solution ourselves. 
+            Also made it compatible for mobile with Media Queries and CSS."
             img={ColorScheme}
             gitLogo={githubLogo}
             imgBlad={blad}
@@ -97,8 +108,15 @@ function App() {
             technics={["javaScript", "HTML",
             "CSS", "Github","Figma"]}
             shortText="Calculate the right VAT"
-            text="more text, more textmore textmore text
-            more textmore textmore textmore textmore text"
+            text="VAT-calculator-SE
+            I was missing a nice-looking VAT calculator,
+             so I made one.
+              Using JavaScript, with some math skills. 
+              Using all basic techniques as addEventListener, 
+              functions, inputs. I made all the fields possible 
+              to copy. As a bonus,
+               I made a version as a Chrome extension 
+               for now it is only accessible locally. Happy VAT Calculating!"
             img={ VAT }
             gitLogo={githubLogo}
             imgBlad={blad}

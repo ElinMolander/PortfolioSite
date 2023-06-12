@@ -7,7 +7,6 @@
     align-self: flex-start;
     color: $third-colorYellow;
     margin:0; 
-    
   }
   
   .awards-section div {
@@ -94,11 +93,16 @@
       max-height: 400px;
       object-fit: cover;
       margin: 0 auto;
+      box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+      border-radius:$border-radius;
     }
     .git-logo {
         margin: 0 1em;
-        width: 30px;
+        width: 35px;
     }
+      .dark {
+        filter: brightness(.15) saturate(0%);
+      }
   
   
     /* LISTS */
@@ -119,12 +123,14 @@
 
   .links-section {
     display: flex;
-    /* flex-direction: row; */
-    /* margin-top: 2em; */
+    flex-direction: row; 
+    place-items: center;
+    margin-top: 2em; 
   }
-  .links-section a {
-    margin: .5em 1em 1em 0;
-  }
+  // .links-section a {
+  //   margin: .5em 1em 1em 0;
+  //   border-radius: $border-radius;
+  // }
   .links-section button {
     position: relative;
     margin: 0 1em 0 0;
@@ -153,17 +159,18 @@
     transform: scale(1,1);
   }
   
-  .projectLink{
+  .projectLink {
     font-weight: 700;
-    padding: .2em;
+    padding: .5em;
     text-decoration: none;
-   
-    transition: transform 0.25s ease;
-    
+    font-weight: 500;
+    font-size: 1.2em;
+    border-radius: $border-radius;
+    transition: all 0.25s ease;
   }
 
   .projectLink:hover {
-    transform: scale(1,1);
+    transform: scale(1.1);
   }
 
  

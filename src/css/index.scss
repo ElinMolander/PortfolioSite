@@ -55,12 +55,12 @@ a:hover {
   transform: scale(1.2);
 }
 
-.projectLink {
-  font-weight: 500;
-  font-size: 1.5em;
-  color: $secondary-colorWhite;
-  text-decoration: underline;
-}
+// .projectLink {
+//   font-weight: 500;
+//   font-size: 1.5em;
+//   color: $secondary-colorWhite;
+//   text-decoration: underline;
+// }
 
 body {
   margin: 0;
@@ -97,6 +97,7 @@ button {
   text-decoration: none;
   display: inline-block;
   margin: 1em 0;
+  border-radius: $border-radius;
 }
 
 .outline-button:hover {
@@ -112,6 +113,9 @@ button {
   display: inline-block;
   margin: 1em 0;
   text-decoration: none;
+  border-radius: $border-radius;
+  border: none;
+  font: inherit;
 }
 
 .filled-button:hover {

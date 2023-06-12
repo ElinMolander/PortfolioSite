@@ -17,7 +17,7 @@ function handleAboutClick(){
                      A Front end developer with a passion for Games and Illustration.
                 When I´m not developing I love to dance or taking long bike trips.</h2>
             </div>
-            <span className="filled-button" onClick={handleContactClick}> Contact</span>
+            <button className="filled-button" onClick={handleContactClick}> Contact</button>
         </section>
        
     )
