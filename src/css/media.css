@@ -3,7 +3,6 @@
 @media only screen and (max-width: 760px) {
   
     .workSection {
-      scroll-margin-top: 100px;
       width: 80%;
     }
   
@@ -30,12 +29,12 @@
       align-self: flex-start;
     }
 
-
     .projectImg {
       max-height: 200px;
       max-width: 100%;
       margin: 0;
     }
+
     .twig {
       max-width: 1.5em;
     }
@@ -49,7 +48,6 @@
     }
 
     .portrait {
-      
       margin: 0;
     }
 
@@ -58,17 +56,19 @@
       margin:  0 .5em 0 0;
     }
 
-    .about-content  h1{
+    .about-content  h1 {
       margin: 1em 0 .5em 0;
     }
-
+    .tech-row p {
+      font-size: .9em;
+    }
   
   }
   
   
   @media only screen and (max-width: 1000px){
     .workSection {
-        scroll-margin-top: 20px;
+        scroll-margin-top: 3rem;
         
     }
     .content-workSection {
@@ -81,14 +81,10 @@
         margin: .5em 1em 0 0;
         
     }
-    /* .bread-texts {
-    
-        width: 100%;
-    }
-     */
+  
     .projectImg {
-        min-height: 200px;
-        max-width: 100%;
+      min-height: 200px;
+      max-width: 100%;
     }
     
     .align-hedline {

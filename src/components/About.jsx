@@ -19,7 +19,7 @@ function handleContactButton(){
                 <div>
                      <div className="tech-row">
                         <h5>Tech</h5>
-                        <p> HTML, CSS, Flexbox, JavaScript ES6, JSX, React, React Hooks, Node.js, Web Accessibly,
+                        <p> HTML, CSS, SCSS, Flexbox, JavaScript ES6, JSX, React, React Hooks, Node.js, Web Accessibly,
                              API:s, Github, Figma, Photoshop, Illustrator, After effects, Blender, Unity. </p>
                     </div>
                     <div className="about-rows">

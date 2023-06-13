@@ -31,10 +31,11 @@
   .workSection {
     display: flex;
     flex-direction: column;
-    margin: 4em auto;
+    margin: 0 auto;
     width: 70vw;
     height:auto;
-    padding: 4em 0;
+    padding: 4rem 0 8rem 0; 
+    scroll-margin-top: 8rem;
   }
 
 
