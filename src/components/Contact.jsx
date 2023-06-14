@@ -13,7 +13,7 @@ function Contact(props) {
                 <h3>More of my illustrations and animation at</h3>
                 <a href="https://elinmolander.com/" className="filled-button">Illustration portfolio</a>
                 <h3>We are making games at</h3>
-                <a href="https://www.beardybird.com/" className="filled-button">BeardyBird Games</a>
+                <a href="https://www.beardybird.com/" className="filled-button">Beardybird Games</a>
             </div>
             
                 

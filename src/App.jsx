@@ -31,13 +31,11 @@ function App() {
             technics={["JavaScript", "HTML",
              "CSS", "Github", "Figma", "Illustrator", "Procreate"]}
             shortText="Turns your wishes into Art!"
-            text=" JavaScript based Art-bot,
-            Self initialised project, I wanted to make an Art-bot where
-             you can make a wish for a unique artwork. The AI-generating processors becomes better and better
-             but do they have a artistic feedom? This robot has! 
-              The techside CSS with z-index as a exemple. Hade a lot of fun using 
-              Animations in JavaScript and used a lot of Math.random and 
-              Filtering in this project."
+            text="
+              I wanted to make an Art bot where you can make a wish for a unique artwork.
+              The AI models becomes better and better, but do they have a artistic feedom? This robot does!
+              I wrote Al in JavaScript/html/css and had lots of fun with animations, Math.random and 
+              filters. All artwork is by me (though Al might disagree)"
             img={imgALArtbot}
             gitLogo={githubLogo}
             imgBlad={blad}
@@ -51,14 +49,14 @@ function App() {
             isLight={false}
         /> 
       <Work headline="Quizzical" 
-            technics={["React", "JavaScript", "HTML",
+            technics={["React", "API", "HTML",
              "CSS", "Github","Figma"]}
             shortText="Test your knowlege!"
-            text="A solo project were we got the design as a starting point. 
-            Using Trivia API to generate questions and answers. 
-            The solution was to do a lot of maping, and use react Hooks as 
-            useEffect and useState. And I also used React Routers for making two pages,
-            A intro page were you can chose topics and difficulty and The Questions Page."
+            text="A project were I got the design as a starting point. 
+            Quizzical uses a Trivia API to generate questions and answers. 
+            The solution relies on a lot of mapping, and the React Hooks 
+            useEffect and useState. I also used React Router to handle two separate pages:
+            an intro page were you can choose topic + difficulty, and the quiz page."
             img={quizzical}
             gitLogo={githubLogo}
             imgBlad={blad}
@@ -68,17 +66,14 @@ function App() {
             isLight={true}
         /> 
       <Work headline="Tenzies" 
-            technics={["React", "JavaScript", "HTML",
+            technics={["React", "HTML",
             "CSS", "Github","Figma"]}
             shortText="A digital remake of the dicegame Tenzies"
             text="React based ice dice game,
-            This project is form my cores in front end development.
-             Were I got the design from the cores but also change some aspects.
-              This was great to get warm with components i React and other tech 
-              as useEffects, useState.
-            I made the design off the dice manly as a CSS challenge. 
-            Fun thing was to implement confetti in the end game, 
-            who doesn't love confetti?"
+              This project is from my course in front-end development where we were given a design, which I put my own spin on.
+              This was great project to get cosy with components in React and using the useEffects and useState Hooks.
+              I decided to implement the dice visuals mainly in CSS as a challenge.
+              Another fun thing I added was confetti when you win, who doesn't love confetti?"
             img={tenzies}
             gitLogo={githubLogo}
             imgBlad={blad}
@@ -88,12 +83,14 @@ function App() {
             isLight={false}
        /> 
 
-      <Work headline="Color-scheme " 
+      <Work headline="Color-scheme" 
             technics={["API","JavaScript", "HTML",
             "CSS", "Github","Figma"]}
-            shortText="get the right color"
-            text="Working with an open API (thecolorapi) to get nice-looking color schemes. This was a solo project in my frontend course at Scrimba, we were given the design and had to implement and come up with the code solution ourselves. 
-            Also made it compatible for mobile with Media Queries and CSS."
+            shortText="Find the right color"
+            text="I worked with an open API (thecolorapi) to get nice-looking color schemes.
+            This was a solo project in my frontend course at Scrimba, we were given the design and 
+            had to implement it on our own. 
+            I added making it compatible with mobile devices using Media Queries and CSS."
             img={ColorScheme}
             gitLogo={githubLogo}
             imgBlad={blad}
@@ -104,19 +101,17 @@ function App() {
       /> 
 
 
-      <Work headline="VAT-Calculator" 
-            technics={["javaScript", "HTML",
+      <Work headline="VAT Calculator" 
+            technics={["JavaScript", "HTML",
             "CSS", "Github","Figma"]}
-            shortText="Calculate the right VAT"
+            shortText="Who doesn't love calculating VAT!?"
             text="VAT-calculator-SE
-            I was missing a nice-looking VAT calculator,
-             so I made one.
-              Using JavaScript, with some math skills. 
-              Using all basic techniques as addEventListener, 
-              functions, inputs. I made all the fields possible 
-              to copy. As a bonus,
-               I made a version as a Chrome extension 
-               for now it is only accessible locally. Happy VAT Calculating!"
+              I was missing a nice-looking VAT calculator,
+              so I made one, I'm sure you can relate.
+              It was a good exercise in basic JavaScript, and math. 
+              I made all the fields possible to copy to clipboard, and as a bonus challenge
+              made a Chrome extension of it (but I haven't published it). 
+              Happy VAT Calculating!"
             img={ VAT }
             gitLogo={githubLogo}
             imgBlad={blad}

@@ -18,37 +18,37 @@ function handleContactButton(){
                 <h3 className="about-myName">Elin Molander</h3>
                 <div>
                      <div className="tech-row">
-                        <h5>Tech</h5>
-                        <p> HTML, CSS, SCSS, Flexbox, JavaScript ES6, JSX, React, React Hooks, Node.js, Web Accessibly,
-                             API:s, Github, Figma, Photoshop, Illustrator, After effects, Blender, Unity. </p>
+                        <h5>Skills</h5>
+                        <p> React, JavaScript, HTML, SCSS/CSS, Node.js,
+                             API:s, Web Accessibility, Github, Figma, Photoshop, Illustrator, After Effects, Procreate, Blender, Unity.</p>
                     </div>
                     <div className="about-rows">
                         <img src={props.symbols[0].game}></img>
-                        <p>I´m a Front end developer with a expertise in illustration and games.</p>
+                        <p>I'm a Front-end developer with added expertise in illustration and games.</p>
                     </div>
 
                     <div className="about-rows">
                         <img src={props.symbols[1].pin}></img>
-                        <p> Based in Göteborg and curently looking for job as a developer.</p>
+                        <p> Based in Göteborg and currently looking for a job as a developer.</p>
                     </div>
                     
                     <div className="about-rows">
                         <img src={props.symbols[2].bb}></img>
-                        <p>I also love to make games and togheter with Erik Hallgren 
-                            I have made some at Beardybird.</p>
+                        <p>I love to make games and have released two, together with Erik Hallgren,
+                            we call ourselves Beardybird.</p>
                     </div>
 
                     <div className="about-rows">
                         <img src={props.symbols[3].pen}></img>
                         <p>I have been working as a Illustrator for 10 years. 
-                            That means I´m very good at all the Adobe programs
-                            and I also can animate as a bonus!</p>
+                            That also means I'm very good at all the Adobe programs
+                            and I can animate as a bonus!</p>
                     </div>
 
                     <div className="about-rows">
                         <img src={props.symbols[4].bike}></img>
-                        <p> When I´m not developing I love to dance lindy hop,
-                            or taking long bike trips. </p>
+                        <p> When I'm not developing I love to dance Lindy Hop, being creative
+                            and taking long bike trips. </p>
                     </div>
                    
                    

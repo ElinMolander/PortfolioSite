@@ -13,9 +13,12 @@ function handleAboutClick(){
         <section id="homeSection" className="light-section" ref={homeRef} >
             <div className="home-content">
             <img src={props.img}  onClick={handleAboutClick} className="portrait"></img>
-                 <h2>Hi! My name is Elin Molander. 
-                     A Front end developer with a passion for Games and Illustration.
-                When I´m not developing I love to dance or taking long bike trips.</h2>
+                 <h2>Hi!<br/>
+                    My name is Elin Molander.<br/>
+                    I'm a front-end developer with a passion for games and illustration.<br/>
+                    When I'm not developing I love to dance or taking long bike trips.<br/>
+                    I live in Gothenburg, Sweden.
+                </h2>
             </div>
             <button className="filled-button" onClick={handleContactClick}> Contact</button>
         </section>

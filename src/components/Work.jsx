@@ -49,7 +49,7 @@ function Work(props) {
                 <div>
                     <div className="bread-texts">
                         <div >
-                            <h3>Technics </h3>
+                            <h3>Tech </h3>
                             <ul className="technicsList">
                                 { displayTechnics }
                             </ul>
