@@ -4,7 +4,7 @@ import './home.scss'
 function Home(props) {
   const homeRef = useNav("Home")
   function handleContactClick() {
-     document.getElementById("contactSection").scrollIntoView({ behavior: "smooth"})
+     document.getElementById("workSection").scrollIntoView({ behavior: "smooth"})
     }
 function handleAboutClick(){
         document.getElementById("aboutSection").scrollIntoView({ behavior: "smooth", block: "end"})
@@ -20,7 +20,7 @@ function handleAboutClick(){
                     I live in Gothenburg, Sweden.
                 </h2>
             </div>
-            <button className="filled-button" onClick={handleContactClick}> Contact</button>
+            <button className="filled-button" onClick={handleContactClick}> My Work </button>
         </section>
        
     )

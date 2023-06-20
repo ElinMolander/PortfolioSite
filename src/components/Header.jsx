@@ -6,7 +6,7 @@ import "./header.scss"
 
 function Header(){
     const { activeLinkId } = useContext(NavContext)
-    const navLinks = ["Work", "About", "Contact"] 
+    const navLinks = ["My Work", "About", "Contact"] 
 //     const [isMobile, setIsMobile] = useState(false)
 //     useEffect(()=> {
 //         window.screen.with <= 760 ? setIsMobile(true) : setIsMobile(false)
@@ -23,7 +23,8 @@ function Header(){
     }
 
    const renderNavLinks = (content) => {
-        const scrollToId = `${content.toLowerCase()}Section`
+      
+        const scrollToId = `${content.toLowerCase().replaceAll(' ','')}Section`
         function handleClickNav(){
         document.getElementById(scrollToId).scrollIntoView({
              behavior: "smooth", block:"start"})

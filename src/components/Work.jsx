@@ -32,7 +32,7 @@ function Work(props) {
 
     return (
        <div className={props.isLight ? "light-section": "dark-section" }>
-            <section id="workSection" className="workSection" ref={workRef}>
+            <section id="myworkSection" className="workSection" ref={workRef}>
             <div className="headline-worksection">
                  <div>
                      <div className="align-hedline">
