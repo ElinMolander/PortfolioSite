@@ -1,8 +1,6 @@
 import  {useNav}  from "../hooks/useNav"
 import './about.scss'
 
-
-
 export default function About(props) {
 const aboutRef = useNav("About")
 
@@ -50,10 +48,13 @@ function handleContactButton(){
                         <p> When I'm not developing I love to dance Lindy Hop, being creative
                             and taking long bike trips. </p>
                     </div>
-                   
-                   
+                    <div className="cv-link">
+                        <a href = {props.cvPdf} className="outline-button light-outline" target = "_blank">Download CV</a>
+                    </div>
+                       
+                    
                 </div>
-                <span className="filled-button " onClick={handleContactButton}> Contact</span>
+                <span className="filled-button" onClick={handleContactButton}> Contact</span>
 
                  {/* <a href = "mailto: elin@elinmolander.com" className="filled-button">elin@elinmolander.com</a> */}
             </div>

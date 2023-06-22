@@ -6,10 +6,36 @@
     align-items: center;
     max-width: 70vw;
     color: $primary-colorBlack;
+    text-align: center;
+  }
+
+  .home-content div {
+    margin: 2em 0 0 0;
   }
 
   .home-content h2 {
-      margin-top: 2em;
-      font-size: 1.5em;
-      line-height: 1.2em;
+    font-size: 1.2em;
+    line-height: 1.2em;
   }
+
+  .headline-home {
+    margin: 0;
+    font-size: 2em;
+  }
+
+  .pil {
+    max-width: 1em;
+    margin: .5em .5em 0 0;
+    padding: 0;
+    align-items: center;
+  }
+
+  .cv-link-home {
+    display: flex;
+    justify-content: space-around;
+    min-width: 30vw;
+}
+.cv-link-home a{
+   margin-right: 1em;
+}
+

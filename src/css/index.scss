@@ -95,7 +95,9 @@ button {
   color: $primary-colorBlack;
   padding: 1em;
   text-decoration: none;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 1em 0;
   border-radius: $border-radius;
 }
@@ -105,10 +107,19 @@ button {
   transform: scale(1.1);
 }
 
+.light-outline {
+  border: $third-colorYellow 2px solid;
+  color: $third-colorYellow;
+}
+.cv-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .filled-button {
   background-color: $secondary-colorWhite;
   color:$primary-colorBlack;
-  padding: 1em;
+  padding: 1em 2em ;
   transition: all .4s ease;
   display: inline-block;
   margin: 1em 0;

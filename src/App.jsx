@@ -20,13 +20,15 @@ import quizzical from "./assets/simpleMocupQuizzical.gif"
 import VAT from "./assets/Vat.jpg"
 import ColorScheme from "./assets/SimpleMocupColorScheme.jpg"
 import tenzies from "./assets/SimpleMocupTenezies.jpg"
+import pil from './assets/pil.png'
+import cvPdf from './Documents/CV_ElinMolander_2023.Pdf'
 
 function App() {
  return (
   <div>
     <NavProvider>
       <Header />
-      <Home img={elinMolander} />
+      <Home img={elinMolander} pil={pil} />
       <Work headline="AL, THE ART BOT" 
             technics={["JavaScript", "HTML",
              "CSS", "Github", "Figma", "Illustrator", "Procreate"]}
@@ -41,7 +43,7 @@ function App() {
             imgBlad={blad}
             linkGithub="https://github.com/ElinMolander/Art-bot"
             linkProjectSite="https://elinmolander.github.io/Art-bot/"
-            awards={[{text:"Selected project", link:"Scrimba", src:"",key:1},
+            awards={[{text:"Selected project", link:"Scrimba", src:"https://scrimba.ck.page/scrimba-community-digest",key:1},
                     {text:"Featured by", 
                     link:"Svenska Tecknare",
                     src:"https://www.svenskatecknare.se/blog/2023/02/22/svara-pa-enkat-om-hur-ai-paverkar-dig-som-visuell-kreator/",
@@ -78,7 +80,7 @@ function App() {
             gitLogo={githubLogo}
             imgBlad={blad}
             linkGithub="https://github.com/ElinMolander/Tenzies"
-            linkProjectSite="https://silly-duckanoo-c6bcd3.netlify.app/"
+            linkProjectSite="https://earnest-sunshine-bdff6e.netlify.app/"
             awards={[]}
             isLight={false}
        /> 
@@ -121,7 +123,9 @@ function App() {
             isLight={false}
       />
      <About img={elinMolander} 
-             symbols={[{game},{pin},{bb},{pen},{bike}]}/>
+            symbols={[{game},{pin},{bb},{pen},{bike}]}
+            cvPdf={cvPdf}
+             />
       <Contact  gitLogo={githubLogo} 
                 instagram={instagram} 
                 linkedin={linkedin}/>

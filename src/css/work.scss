@@ -26,7 +26,6 @@
       font-size: 1em;
       margin: 0;
     }
-
   
   .workSection {
     display: flex;
@@ -38,8 +37,6 @@
     scroll-margin-top: 8rem;
   }
 
-
-  
     .align-hedline {
       display: flex;
       margin: 0;
@@ -76,11 +73,15 @@
     .bread-texts {
       display: flex;
       flex-direction: column;
-      width: 80%;
+      line-height: 1.2em;
+      width: 90%;
     }
 
     .bread-texts p {
-      margin-bottom: 2em;
+      margin: 0 0 1em 0;
+    }
+    .bread-texts h3 {
+      margin: .5em 0;
     }
 
     .links-Section {
@@ -90,8 +91,8 @@
   /* IMAGES */
   
     .projectImg {
-      max-width: 550px;
-      max-height: 400px;
+      max-width: 650px;
+      max-height: 500px;
       object-fit: cover;
       margin: 0 auto;
       box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
@@ -113,7 +114,7 @@
     }
     
     .technicsList {
-      margin: 1em;
+      margin: 0em 0 2em 1em;
       padding: 0;
     }
     .technicsList li {
@@ -128,10 +129,7 @@
     place-items: center;
     margin-top: 2em; 
   }
-  // .links-section a {
-  //   margin: .5em 1em 1em 0;
-  //   border-radius: $border-radius;
-  // }
+
   .links-section button {
     position: relative;
     margin: 0 1em 0 0;

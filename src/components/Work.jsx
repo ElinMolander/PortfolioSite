@@ -16,14 +16,12 @@ function Work(props) {
     })
 
         const displayAwards = awards.map((award) => {
-            
             return (
                 <div key={award.key}>
                     <img src={props.imgBlad} className="twig" ></img>
                         <div className="awards-text">
-                            <h5>{award.text}</h5> <a>{award.link}</a>
+                            <h5>{award.text}</h5> <a href={award.src}>{award.link}</a>
                         </div>
-                    
                     <img src={props.imgBlad} className="twig mirrored"></img>
                 </div>
             )
@@ -49,7 +47,7 @@ function Work(props) {
                 <div>
                     <div className="bread-texts">
                         <div >
-                            <h3>Tech </h3>
+                            <h3>Tech</h3>
                             <ul className="technicsList">
                                 { displayTechnics }
                             </ul>
