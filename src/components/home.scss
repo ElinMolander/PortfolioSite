@@ -34,8 +34,9 @@
     display: flex;
     justify-content: space-around;
     min-width: 30vw;
+    z-index: 1000;
 }
-.cv-link-home a{
+.cv-link-home a {
    margin-right: 1em;
 }
 

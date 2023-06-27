@@ -28,14 +28,17 @@ function Home(props) {
                
             </div>
             <div className="cv-link-home">
-                        <a href={props.cvPdf} className="outline-button" target = "_blank">
+                        <a href={props.cvPdf} className="outline-button home-cv-link" target = "_blank">
                             Download CV <br></br>
-                            <img src={props.pil} className="pil" ></img></a>
+                            <img src={props.pil} className="pil"onClick={handleContactClick} ></img>
+                           </a>
+                           
+                         
                         <button className="filled-button" onClick={handleContactClick}> My Work <br></br>
                                 <img src={props.pil} className="pil"onClick={handleContactClick} ></img>
                         </button>
-            </div>
-            
+           
+                        </div>   
         </section>
        
     )

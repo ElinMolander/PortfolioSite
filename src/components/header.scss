@@ -28,7 +28,7 @@
 
 .navContainer nav {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .navContainer button {
@@ -41,7 +41,7 @@
     border: none;
 }
 
-.navContainer button:not(.activeClass)::before{
+.navContainer button:not(.activeClass)::before {
     content: "";
     position: absolute;
     height: 2px;
@@ -58,7 +58,7 @@
     transform: scale(1,1);
 }
 
-.navContainer button.activeClass::before{
+.navContainer button.activeClass::before {
     content: "";
     position: absolute;
     height: 2px;
@@ -78,7 +78,7 @@
         padding: 0;
     }
     
-    .navContainer{
+    .navContainer {
         display: flex;
         align-items: center;
         justify-content: center;

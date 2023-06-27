@@ -28,7 +28,7 @@ function App() {
   <div>
     <NavProvider>
       <Header />
-      <Home img={elinMolander} pil={pil} />
+      <Home img={elinMolander} pil={pil} cvPdf={cvPdf}/>
       <Work headline="AL, THE ART BOT" 
             technics={["JavaScript", "HTML",
              "CSS", "Github", "Figma", "Illustrator", "Procreate"]}
