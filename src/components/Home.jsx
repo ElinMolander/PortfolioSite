@@ -28,7 +28,7 @@ function Home(props) {
                
             </div>
             <div className="cv-link-home">
-                        <a href={props.cvPdf} className="outline-button home-cv-link" target = "_blank">
+                        <a href={props.cvPdf} className="outline-button home-cv-link" target = "_blank" rel="noreferrer">
                             Download CV <br></br>
                             <img src={props.pil} className="pil"onClick={handleContactClick} ></img>
                            </a>

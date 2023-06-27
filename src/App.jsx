@@ -21,14 +21,20 @@ import VAT from "./assets/Vat.jpg"
 import ColorScheme from "./assets/SimpleMocupColorScheme.jpg"
 import tenzies from "./assets/SimpleMocupTenezies.jpg"
 import pil from './assets/pil.png'
-import cvPdf from './Documents/CV_ElinMolander_2023.Pdf'
+import cvPdf from './assets/Documents/CV_ElinMolander_2023.PDF'
 
 function App() {
+
+
+ 
  return (
   <div>
     <NavProvider>
       <Header />
-      <Home img={elinMolander} pil={pil} cvPdf={cvPdf}/>
+      
+      <Home img={elinMolander} pil={pil} cvPdf={cvPdf} />
+    
+      
       <Work headline="AL, THE ART BOT" 
             technics={["JavaScript", "HTML",
              "CSS", "Github", "Figma", "Illustrator", "Procreate"]}
@@ -129,6 +135,8 @@ function App() {
       <Contact  gitLogo={githubLogo} 
                 instagram={instagram} 
                 linkedin={linkedin}/>
+      
+   
      
     </NavProvider>
   </div>
