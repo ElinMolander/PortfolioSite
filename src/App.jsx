@@ -21,7 +21,7 @@ import VAT from "./assets/Vat.jpg"
 import ColorScheme from "./assets/SimpleMocupColorScheme.jpg"
 import tenzies from "./assets/SimpleMocupTenezies.jpg"
 import pil from './assets/pil.png'
-import cvPdf from './assets/Documents/CV_ElinMolander_2023.PDF'
+import cvPdf from './assets/Documents/CVElinMolander2023.pdf'
 
 function App() {
 

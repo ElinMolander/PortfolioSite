@@ -49,7 +49,7 @@ function handleContactButton(){
                             and taking long bike trips. </p>
                     </div>
                     <div className="cv-link">
-                        <a href = {props.cvPdf} className="outline-button light-outline" target = "_blank">Download CV</a>
+                        <a href = {props.cvPdf} className="outline-button light-outline" target = "_blank" rel="noreferrer">Download CV</a>
                     </div>
                        
                     
