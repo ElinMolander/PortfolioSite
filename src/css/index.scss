@@ -101,21 +101,35 @@ button {
   margin: 1em 0;
   border-radius: $border-radius;
 }
-
-.outline-button:hover {
-  background-color: $secondary-colorWhite;
-  transform: scale(1.1);
-}
+  .outline-button:hover {
+    transform: scale(1.1);
+  }
 
 .light-outline {
-  border: $third-colorYellow 2px solid;
+  border:  2px solid;
   color: $third-colorYellow;
 }
+  .light-outline:hover {
+    background-color: $third-colorYellow;
+    color: $primary-colorBlack;
+  }
+
+.dark-outline {
+  border: $primary-colorBlack 2px solid;
+  color: $primary-colorBlack;
+}
+  .dark-outline:hover {
+    color: $third-colorYellow;
+    background-color: $primary-colorBlack;
+  }
+
+
 .cv-link {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .filled-button {
   background-color: $secondary-colorWhite;
   color:$primary-colorBlack;

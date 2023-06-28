@@ -7,12 +7,13 @@ function Contact(props) {
         <section id="contactSection" className="contactSection" ref={contactRef}>
             <div className="contact-segments">
                 <h1>Contact</h1>
-                <h3 className="greeting-text"> Say Hi! </h3>
                 
-                <a href = "mailto: elin@elinmolander.com" className="outline-button">elin@elinmolander.com</a>
-                <h3>More of my illustrations and animations at</h3>
+                <h3 className="greeting-text"> Say Hi! </h3>
+                <h2>Email me;</h2>
+                <a href = "mailto: elin@elinmolander.com" className="outline-button dark-outline">elin@elinmolander.com</a>
+                <h2>More of my illustrations and animations at;</h2>
                 <a href="https://elinmolander.com/" className="filled-button">Illustration portfolio</a>
-                <h3>We are making games at</h3>
+                <h2>We are making games at;</h2>
                 <a href="https://www.beardybird.com/" className="filled-button">Beardybird Games</a>
             </div>
             

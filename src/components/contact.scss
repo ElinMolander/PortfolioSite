@@ -6,15 +6,19 @@
 }
 
 .greeting-text {
-    margin: 2em 0;
+    margin: 1em 0;
     font-size: 2em;
 }
 
 .contactSection h1 {
     font-size: 3em;
-    margin: 0.5em 0 0 0;
+    margin: 1em 0 0 0;
 }
 
+.contactSection h2 {
+    font-size: 1em;
+    margin: .5em 0 0 0;
+}
 
 .contact-segments {
     display: flex;
@@ -27,3 +31,4 @@
     display: flex;
     justify-content: space-between;
 }
+
