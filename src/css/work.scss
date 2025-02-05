@@ -48,6 +48,7 @@
     .headline-worksection {
       display: flex;
       align-self: start;
+      width: 30vw;
     }
   
   
@@ -91,7 +92,8 @@
   /* IMAGES */
   
     .projectImg {
-      max-width: 650px;
+      max-width: 750px;
+      min-width: 650px;
       max-height: 500px;
       object-fit: cover;
       margin: 0 auto;

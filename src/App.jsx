@@ -22,16 +22,34 @@ import ColorScheme from "./assets/SimpleMocupColorScheme.jpg"
 import tenzies from "./assets/SimpleMocupTenezies.jpg"
 import pil from './assets/pil.png'
 import cvPdf from './assets/Documents/CVElinMolander2023.pdf'
+import happybuttons from '../src/assets/mocupHappybuttons.gif'
 
 function App() {
 
 
- 
  return (
   <div>
     <NavProvider>
       <Header />
       <Home img={elinMolander} pil={pil} cvPdf={cvPdf} />
+
+      <Work headline="Happy buttons" 
+            technics={["React","HTML","Lottie",
+             "CSS", "Github","After effects", "Figma", "Illustrator", "Procreate"]}
+            shortText="Press happy buttons!"
+            text="
+            A project where I started with a focus on animated buttons.
+            This interactive experience allows you to explore different button animations and behaviors.
+            Using Lottie and After Effects for flexible animations and a confetti library for React."
+            img={happybuttons}
+            gitLogo={githubLogo}
+            imgBlad={blad}
+            linkGithub="https://github.com/ElinMolander/Happy-Buttons"
+            linkProjectSite="https://happybuttons.elinmolander.com/"
+            awards={[]}
+            isLight={true}
+        /> 
+
       <Work headline="AL, THE ART BOT" 
             technics={["JavaScript", "HTML",
              "CSS", "Github", "Figma", "Illustrator", "Procreate"]}
@@ -45,12 +63,8 @@ function App() {
             gitLogo={githubLogo}
             imgBlad={blad}
             linkGithub="https://github.com/ElinMolander/Art-bot"
-            linkProjectSite="https://elinmolander.github.io/Art-bot/"
-            awards={[{text:"Selected project", link:"Scrimba", src:"https://scrimba.ck.page/scrimba-community-digest",key:1},
-                    {text:"Featured by", 
-                    link:"Svenska Tecknare",
-                    src:"https://www.svenskatecknare.se/blog/2023/02/22/svara-pa-enkat-om-hur-ai-paverkar-dig-som-visuell-kreator/",
-                     key:2}]}
+            linkProjectSite="https://happybuttons.elinmolander.com/"
+            awards={[]}
             isLight={false}
         /> 
       <Work headline="Quizzical" 
