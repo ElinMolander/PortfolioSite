@@ -27,7 +27,7 @@ function handleContactButton(){
 
                     <div className="about-rows">
                         <img src={props.symbols[1].pin}></img>
-                        <p> Based in Göteborg and currently looking for a job as a developer.</p>
+                        <p> Based in Göteborg and live in Masthugget</p>
                     </div>
                     
                     <div className="about-rows">

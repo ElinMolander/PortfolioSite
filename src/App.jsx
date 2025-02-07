@@ -21,7 +21,7 @@ import VAT from "./assets/Vat.jpg"
 import ColorScheme from "./assets/SimpleMocupColorScheme.jpg"
 import tenzies from "./assets/SimpleMocupTenezies.jpg"
 import pil from './assets/pil.png'
-import cvPdf from './assets/Documents/CVElinMolander2023.pdf'
+import cvPdf from './assets/Documents/CV2025ElinMolander.pdf'
 import happybuttons from '../src/assets/mocupHappybuttons.gif'
 
 function App() {
